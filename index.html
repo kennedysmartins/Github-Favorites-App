@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rocketseat - Github Favorites</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="main.js" defer></script>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>Github Favorites</h1>
+        <div class="search">
+          <label class="sr-only" ="inputSearch">Usuário do Github</label>
+          <input id="inputSearch" type="text" placeholder="Usuário do Github" />
+          <button>&plus;</button>
+        </div>
+      </header>
+      <table>
+        <thead>
+          <tr>
+            <th>Usuário</th>
+            <th>Repositórios</th>
+            <th>Seguidores</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="user">
+              <img
+                src="http://github.com/kennedysmartins.png"
+                alt="Imagem Kennedy"
+              />
+              <a href="http://github.com/kennedysmartins" target="_blank">
+                <p>Kennedy Martins</p>
+                <span>kennedysmartins</span>
+              </a>
+            </td>
+            <td class="repositories">19</td>
+            <td class="followers">4</td>
+            <td><button class="remove">&times;</button></td>
+          </tr>
+          <tr>
+            <td class="user">
+              <img
+                src="http://github.com/kerolmrts.png"
+                alt="Imagem Kerolayne"
+              />
+              <a href="http://github.com/kennedysmartins" target="_blank">
+                <p>Kerolayne Martins</p>
+                <span>kerolmrts</span>
+              </a>
+            </td>
+            <td class="repositories">3</td>
+            <td class="followers">4</td>
+            <td><button class="remove">&times;</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
